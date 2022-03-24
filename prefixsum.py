@@ -6,4 +6,7 @@ for i in range(len(l)):
 print(prefix)
 i1=int(input())
 i2=int(input())
-print(prefix[i2]-prefix[i1-1])
+if i1==0:
+    print(prefix[i2])
+else:
+    print(prefix[i2]-prefix[i1-1])

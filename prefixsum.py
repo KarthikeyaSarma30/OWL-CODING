@@ -1,3 +1,4 @@
+#Prefix sum to find sum between two indexes of an array
 l=list(map(int,input().split()))
 prefix=[0]*len(l)
 for i in range(len(l)):
